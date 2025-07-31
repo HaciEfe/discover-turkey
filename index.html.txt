@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Turkey - History & Culture</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f8f9fa, #e0c3fc);
+    }
+    header {
+      background-color: #4b0082;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #6a0dad;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .language-switcher {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .language-switcher button {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #8e2de2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    section:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      text-align: center;
+      background-color: #4b0082;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Discover Turkey</h1>
+    <p>Explore the rich history and culture of Türkiye</p>
+  </header>
+
+  <div class="language-switcher">
+    <button onclick="switchLanguage('en')">English</button>
+    <button onclick="switchLanguage('tr')">Türkçe</button>
+  </div>
+
+  <nav>
+    <a href="#istanbul">Istanbul</a>
+    <a href="#ataturk">Atatürk</a>
+    <a href="#efes">Ephesus</a>
+    <a href="#ottoman">Ottoman</a>
+    <a href="#gokturk">Göktürks</a>
+    <a href="#selcuk">Seljuks</a>
+  </nav>
+
+  <main>
+    <section id="istanbul">
+      <h2>Istanbul / İstanbul</h2>
+      <p>Istanbul is a city that connects Europe and Asia, rich with thousands of years of history.</p>
+    </section>
+
+    <section id="ataturk">
+      <h2>Mustafa Kemal Atatürk</h2>
+      <p>Atatürk is the founder of modern Turkey. He made major reforms and modernized the nation.</p>
+    </section>
+
+    <section id="efes">
+      <h2>Ephesus / Efes</h2>
+      <p>Ephesus is an ancient city in the Aegean region, known for its well-preserved ruins.</p>
+    </section>
+
+    <section id="ottoman">
+      <h2>Ottoman Empire / Osmanlı İmparatorluğu</h2>
+      <p>The Ottoman Empire ruled for over 600 years across three continents. Its legacy shaped much of modern Turkish culture.</p>
+    </section>
+
+    <section id="gokturk">
+      <h2>Göktürks / Göktürkler</h2>
+      <p>The Göktürks were the first Turkic state to use the name "Türk" and left behind the Orkhon inscriptions.</p>
+    </section>
+
+    <section id="selcuk">
+      <h2>Seljuks / Selçuklular</h2>
+      <p>The Seljuk Empire was an influential medieval dynasty that contributed to Islamic architecture and Turkish unity.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Discover Turkey. All rights reserved.
+  </footer>
+
+  <script>
+    function switchLanguage(lang) {
+      alert("Language switching is not active yet, but this button will allow changing the site language.");
+    }
+  </script>
+</body>
+</html>
